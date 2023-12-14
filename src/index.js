@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './sample.css';
+import './index.css';
 import './components/Dragon/CurrentPane.css';
 import './RecentBetPane.css';
 

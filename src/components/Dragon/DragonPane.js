@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../../sample.css";
+import "../../index.css";
 import CurrentPane  from './CurrentPane';
 import CustomPane from './CustomPane';
 import FDPane from './FDPane';
