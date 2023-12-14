@@ -1,4 +1,3 @@
-import "./sample.css";
 import { useState } from "react";
 import RecentBetPane from "./components/RecentBetPane";
 import DragonPane from "./components/Dragon/DragonPane";
@@ -17,7 +16,7 @@ function App() {
     <li
       onClick={() => setVisibleTab(item.id)}
       className={
-        visibleTab === item.id ? "tab-title tab-title--active" : "tab-title"
+        visibleTab === item.id ? "tab-title shadow-2 tab-title--active" : "tab-title"
       }
     >
       {item.tabTitle}
@@ -31,13 +30,14 @@ function App() {
   ));
 
   return (
-    <div className="App">
+    <div className="App shadow">
       <div className="card">
         <div className="card-content">
           <div className="tabs-container">
             <div className="tabs-titles">{listTitles}</div>
+            <div className="tabs-bottom"></div>
           </div>
-          <div className="tab-content">{listContent}</div>
+          <div className="tab-content shadow">{listContent}</div>
         </div>
       </div>
     </div>

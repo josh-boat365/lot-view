@@ -7,6 +7,8 @@
 
 .current-row-tab{
     background-color: white !important;
+    display: inline-flex;
+    justify-content: space-between;
     padding: 1.5rem;
     margin-bottom:1rem;
     width: 90%;
@@ -25,4 +27,12 @@
     height: 50vh;
     padding: 0.8rem;
     overflow-y: scroll;
+}
+
+.fd-row-tab{
+    background-color: white !important;
+    padding: 1.5rem;
+    margin-bottom:1rem;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

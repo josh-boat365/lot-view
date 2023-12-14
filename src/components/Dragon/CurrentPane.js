@@ -3,11 +3,32 @@ import "./CurrentPane.css";
 import CurrentRowTab from "./CurrentRowTab";
 
 function CurrentPane() {
+
+    const data = [
+        {id:1,
+        name:'B/S 2nd - Big',
+        row: 'Row 7 Draw',
+        },
+        {id:1,
+        name:'B/S 2nd - Big',
+        row: 'Row 7 Draw',
+        },
+        {id:1,
+        name:'B/S 2nd - Big',
+        row: 'Row 7 Draw',
+    
+        },
+        {id:1,
+        name:'B/S 2nd - Big',
+        row: 'Row 7 Draw',
+        },
+    ]
+
   return (
     <div>
       <div className="current-pane">
-       {[...Array(20)].map((_,index) => (
-        <CurrentRowTab key={index} />
+       {data.map((item,index) => (
+        <CurrentRowTab key={index} data={item}/>
        ))
 
        }

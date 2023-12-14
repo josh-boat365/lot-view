@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import "../../sample.css";
 import CurrentPane  from './CurrentPane';
+import CustomPane from './CustomPane';
 import FDPane from './FDPane';
+import Games from './Games';
+
 
 function DragonPane() {
 
   const data = [
     { id: "1", tabTitle: "Current", tabContent: <CurrentPane /> },
     { id: "2", tabTitle: "5D", tabContent: <FDPane /> },
-    { id: "3", tabTitle: "Custom", tabContent: "Tab Content 3" },
-    { id: "4", tabTitle: "Games 28", tabContent: "Tab Content 4" },
+    { id: "3", tabTitle: "Custom", tabContent: <CustomPane /> },
+    { id: "4", tabTitle: "Games 28", tabContent: <Games /> },
     { id: "5", tabTitle: "Row Data", tabContent: "Tab Content 4" },
   ];
 

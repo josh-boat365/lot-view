@@ -45,9 +45,7 @@ li, ul{
 
 .winning-numbers li{
     background-color: #ffeddd;
-    /* text-align: center; */
     padding: 0.18rem !important;
-    /* width: 1rem; */
     margin: 0 0 0  0.7rem;
     border: solid 2px orange;
     border-radius: 50%;

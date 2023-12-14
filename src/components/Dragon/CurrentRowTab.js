@@ -1,11 +1,11 @@
 import React from 'react'
 
-function CurrentRowTab() {
+function CurrentRowTab({data}) {
   return (
     <div>
        <div className="current-row-tab">
-          <p>B/S 2nd - Big</p>
-          <p>Row 7 Draw</p>
+          <p>{data.name}</p>
+          <p>{data.row}</p>
         </div>
     </div>
   )

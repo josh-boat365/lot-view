@@ -1,5 +1,4 @@
 import React from "react";
-import "../RecentBetPane.css";
 import TableRow  from "./TableRow";
 
 function RecentBetPane() {
