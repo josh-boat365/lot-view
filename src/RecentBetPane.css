@@ -1,0 +1,66 @@
+
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.1em #eee;
+}
+
+.table-header li{
+    padding: 9px ;
+}
+
+
+.table-header-group {
+    display: inline-block;
+    text-align: center;
+}
+.sub-header-group {
+    display: flex;
+    gap: 6px;
+
+}
+li, ul{
+    list-style: none;
+}
+
+.table-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 0.1em #eee;
+    padding: 10px; 
+}
+
+.row-tab{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.winning-numbers{
+    display: inline-flex;
+    justify-content: space-between;
+
+    
+}
+
+.winning-numbers li{
+    background-color: #ffeddd;
+    /* text-align: center; */
+    padding: 0.18rem !important;
+    /* width: 1rem; */
+    margin: 0 0 0  0.7rem;
+    border: solid 2px orange;
+    border-radius: 50%;
+}
+
+.table-header-group-num{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+.table-header-group-num .t{
+    font-size: 13px;
+}
+
+
+
