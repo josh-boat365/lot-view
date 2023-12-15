@@ -6,16 +6,16 @@ function CustomPane() {
     {
       id: 1,
       title: "TGL",
-      name: "FDRowTab",
-      row: "FDRowTab",
+      name: "1st Prize 4th/Composite",
+      row: "Row 8 Draw",
       time: "00:00:00",
       type: " Composite",
     },
     {
       id: 2,
       title: "TGL",
-      name: "FDRowTab",
-      row: "FDRowTab",
+      name: "1st Prize 4th/Composite",
+      row: "Row 8 Draw",
       time: "00:00:00",
       type: " Composite",
     }

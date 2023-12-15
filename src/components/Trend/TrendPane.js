@@ -1,17 +1,15 @@
-import { useState } from "react";
-import "../../index.css";
-import CurrentPane from "./CurrentPane";
-import CustomPane from "./CustomPane";
-import FiveDPane from "./FiveDPane";
-import Games from "./Games";
+import React, { useState } from "react";
+import CurrentTrendPane from './CurrentTrendPane';
+import TrendFiveDPane from "./TrendFiveDPane";
+import CustomTrendPane from "../Trend/CustomTrendPane";
 
-function DragonPane() {
+function TrendPane() {
   const data = [
-    { id: 1, tabTitle: "Current", tabContent: <CurrentPane /> },
-    { id: 2, tabTitle: "5D", tabContent: <FiveDPane /> },
-    { id: 3, tabTitle: "Custom", tabContent: <CustomPane /> },
-    { id: 4, tabTitle: "Games 28", tabContent: <Games /> },
-    { id: 5, tabTitle: "Row Data", tabContent: "Tab Content 4" },
+    { id: 1, tabTitle: "Current", tabContent: <CurrentTrendPane /> },
+    { id: 2, tabTitle: "5D", tabContent: <TrendFiveDPane /> },
+    { id: 3, tabTitle: "Custom", tabContent: <CustomTrendPane />  },
+    { id: 4, tabTitle: "Games 28", tabContent: <CurrentTrendPane /> },
+    { id: 5, tabTitle: "Row Data", tabContent: <CurrentTrendPane /> },
   ];
 
   const [visibleTab, setVisibleTab] = useState(data[0].id);
@@ -45,4 +43,4 @@ function DragonPane() {
   );
 }
 
-export default DragonPane;
+export default TrendPane;

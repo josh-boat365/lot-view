@@ -1,19 +1,29 @@
-import React from 'react'
+import React from "react";
 
-function FDRowTab({data}) {
+function FDRowTab({ data }) {
   return (
     <div>
-       <div className="fd-row-tab">
-        <b><p>{data.title}</p></b> 
-        <p className="row">
-          <p>{data.name}</p>
-          <p>{data.row}</p>
-          <p>{data.time}</p>
-        </p>
-        <p>{data.type}</p>
+      <div className="fd-row-tab shadow-3">
+        <div>
+          <div>
+            <b>
+              <p>{data.title}</p>
+            </b>
+          </div>
+
+          <div className="row">
+            <p>{data.name}</p>
+            <p>{data.row}</p>
+            <p>{data.time}</p>
+          </div>
+
+          <div>
+            <p>{data.type}</p>
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default FDRowTab
+export default FDRowTab;

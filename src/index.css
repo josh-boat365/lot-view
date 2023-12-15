@@ -1,11 +1,26 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+
   *{
     margin: 0;
+    font-family:  Segoe UI;
   }
-  
+  .v{
+    color: #9300ff;
+  }
+  .b{
+    color: #00b6ff;
+  }
+  .g{
+    color: #6cff00;
+  }
+  .o{
+    color: #ff9b00;
+  }
 
   .App{
-    background-color: #0b58ff;
+    background-color: #0a3dad;
     margin: 0 auto;
     margin-top: 8rem;
     padding: 1rem;
@@ -22,10 +37,10 @@
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   }
 
-  
-  .card{
-    
+  .shadow-3{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
+
 
 
   .tabs-bottom{
@@ -35,7 +50,7 @@
   }
   
   .tab-title{
-    background-color: #0b58ff;
+    background-color: #0a3dad;
     display: inline-block;
     padding: 10px;
     border-radius: 5px 5px 0px 0px;

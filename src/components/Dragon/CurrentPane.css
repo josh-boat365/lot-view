@@ -11,9 +11,10 @@
     justify-content: space-between;
     padding: 1.5rem;
     margin-bottom:1rem;
+    border-radius: 8px;
     width: 90%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
 
 .row{
     display: inline-flex;
@@ -33,6 +34,6 @@
     background-color: white !important;
     padding: 1.5rem;
     margin-bottom:1rem;
+    border-radius: 8px;
     width: 90%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

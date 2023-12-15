@@ -1,0 +1,63 @@
+.card {
+  border-radius: 10px;
+}
+
+.card-header {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 93%;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 0.3em 0.3em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-card {
+  padding: 10px;
+}
+
+tr td:nth-child(odd) {
+  font-weight: bold;
+  color: #0b7bff;
+}
+
+tr td:nth-child(even) {
+  font-weight: bold;
+  color: #ff0b3b;
+}
+
+.table-footer {
+  display: inline-flex;
+  algin-items: center;
+  width: 93%;
+  margin: 1rem 3rem 1rem 1rem;
+  justify-content: space-between;
+}
+
+.table-footer .l-side,
+.table-footer .r-side {
+  background-color: #f8f8f8;
+  display: inline-flex;
+  algin-items: center;
+  padding: 10px 30px 10px 30px;
+  border-radius: 15px;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.table-footer .l-side p:first-child, .table-footer .r-side p:nth-child(2) {
+    color: #0b7bff;
+}
+.table-footer .l-side p:last-child, .table-footer .r-side p:last-child{
+     color: orange;
+}
+
+.table-footer p{
+    cursor: pointer;
+}
